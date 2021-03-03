@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  min-width: 400px;
+  min-width: 580px;
   height: 100%;
 }
 #container {
@@ -88,11 +88,10 @@ footer a{
 }
 
 #left{
-    height: 50%;
-    padding-right: 80px;
+    height: 100%;
 }
 #rigth{
-  height: 50%;
+  height: 100%;
 
 }
 #left a:not(:first-child), #right a:not(:last-child){
@@ -106,6 +105,13 @@ footer a{
   main{
     height: 80vh;
   }
+  #left{
+    height: 50%;
+}
+#rigth{
+  height: 50%;
+
+}
   }
 #nav-icons{
     width: 80px;
@@ -176,7 +182,7 @@ margin-top: 3px;
   border-radius: 34px;
   height: 10%;
   max-height: 43px;
-  width: 75vw;
+  width: 90%;
   max-width: 600px;
   min-width: 350px;
   background-color: white;
