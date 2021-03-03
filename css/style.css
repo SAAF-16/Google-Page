@@ -22,7 +22,7 @@ nav {
 }
 main {
   width: 100%;
-  height: 79vh;
+  height: 79.7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,19 +47,29 @@ main {
   margin-bottom: 10px;
 }
 footer {
+  font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
   width: 100%;
-  height: 14vh;
+  height: 80px;
   background-color: rgb(242, 242, 242);
   display: flex;
   flex-direction: column;
 }
 
 #foot1{
-    height: 50%;
+    height: 52%;
     border-bottom: solid 0.4px rgba(0, 0, 0, 0.095);;
 }
 #foot2{
+  display: flex;
+  flex-direction: row;
+    height: 48%;
+}
+#left{
     height: 50%;
+}
+#rigth{
+  height: 50%;
+
 }
 #nav-icons{
     width: 80px;
@@ -203,7 +213,7 @@ fill: rgb(66, 133, 244);
 }
 #click-btn {
   width:145px;
-  height: 100%;
+  height: 35px;
   margin: auto 10px auto 10px;
   outline-color: transparent;
   outline-width: 0px;
@@ -225,7 +235,7 @@ fill: rgb(66, 133, 244);
   justify-content: center;
   height: 8%;
 }
-#main-bottom p {
+#mMain-bottom p {
   font-size: small;
   margin-top: 30px;
   text-align: center;
@@ -234,9 +244,20 @@ p > a {
   text-decoration: none;
 }
 #main-bottom {
-  width: 100%;
-  flex-grow: 1;
-  flex-shrink: 0;
+  max-height: 290px;
+  height: calc(150% - 560px);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mMain-bottom{
+  font-size: 14px;
+  height: 100%;
+  margin-bottom: auto;
+  max-height: 92px;
+  margin-top: 0;
 }
 a:link {
   text-decoration: none;
